@@ -16,16 +16,9 @@ This project analyzes the factors contributing to loan payment delays among Raif
 
 ## Machine Learning Models
 - **Algorithms Used**: Logistic Regression, Decision Tree, Random Forest, etc.
-- **Best Performing Model**: [Specify the model] with an accuracy of [insert accuracy]% due to its ability to balance precision and recall effectively.
-
-## Getting Started
-1. **Clone the Repository**: `git clone https://github.com/username/Raiffeisen_Payment_Delays_Analysis.git`
-2. **Install Dependencies**: `pip install -r requirements.txt`
-3. **Run Jupyter Notebook**: Open the notebook and execute cells to explore the analysis.
+- **Best Performing Model**: XGBoost (with an accuracy of 97% on not having delayed payments and 80% on having delayed payments) due to its ability to balance precision and recall effectively.
 
 ## Technologies Used
 - Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Plotly
 
-## Future Work
-- Enhancing feature selection for improved model performance
-- Exploring additional algorithms like XGBoost
+
